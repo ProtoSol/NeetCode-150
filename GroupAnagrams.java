@@ -15,7 +15,6 @@ public class GroupAnagrams {
             List<String> list = map.getOrDefault(key, new ArrayList<>());
             list.add(s);
             map.put(key, list);
-        }
         return new ArrayList<>(map.values());
     }
 
