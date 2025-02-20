@@ -8,6 +8,7 @@ public class EncodeDecode {
         for (String str : strs) {
             sb.append(str.length()).append('/').append(str);
         }
+        System.out.println(sb.toString());
         return sb.toString();
     }
 
